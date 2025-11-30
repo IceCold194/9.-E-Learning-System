@@ -105,6 +105,7 @@
             this.buttonDisplay.TabIndex = 7;
             this.buttonDisplay.Text = "Display Details";
             this.buttonDisplay.UseVisualStyleBackColor = true;
+            this.buttonDisplay.Click += new System.EventHandler(this.buttonDisplay_Click);
             // 
             // Form1
             // 

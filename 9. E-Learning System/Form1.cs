@@ -16,5 +16,12 @@ namespace _9.E_Learning_System
         {
             InitializeComponent();
         }
+
+        private void buttonDisplay_Click(object sender, EventArgs e)
+        {
+            Course myCourse = new OnlineCourse(textBoxTitle.Text, textBoxDuration.Text, textBoxPlatform.Text);
+
+            MessageBox.Show(myCourse.DisplayDetails(), "Course Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
